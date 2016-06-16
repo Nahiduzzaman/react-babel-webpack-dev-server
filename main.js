@@ -1,1 +1,1 @@
-import Hello from './src/hello.jsx';
+import CommentBox from './src/components/CommentBox.jsx';

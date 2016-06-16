@@ -2,6 +2,11 @@
 
 Learning React Redux with Babel and Webpack Dev Server
 
+Execute command to run the application
+```
+npm start
+```
+
 ##Important Steps followed while creating this demo learning tutorial application
 
 ###Initialize node package.json file
@@ -21,4 +26,5 @@ npm install --save-dev babel-preset-react
 *References*
 
 https://webpack.github.io/docs/webpack-dev-server.html
+
 https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
