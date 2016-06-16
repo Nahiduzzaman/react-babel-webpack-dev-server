@@ -24,8 +24,9 @@ npm install --save-dev babel-core
 npm install --save-dev babel-preset-es2015
 npm install --save-dev babel-preset-react
 ```
+
 *References*
 
-https://webpack.github.io/docs/webpack-dev-server.html
-
-https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
+* https://facebook.github.io/react/docs/tutorial.html
+* https://webpack.github.io/docs/webpack-dev-server.html
+* https://www.twilio.com/blog/2015/08/setting-up-react-for-es6-with-webpack-and-babel-2.html
