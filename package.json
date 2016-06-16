@@ -1,0 +1,41 @@
+{
+  "name": "express-react-babel-webpack-dev-server",
+  "version": "1.0.0",
+  "description": "Learning React Redux with Express, Babel and Webpack Dev Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --port 3000 --content-base public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshdch/express-react-babel-webpack-dev-server.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "webpack-dev-server",
+    "babel",
+    "express",
+    "tutorial",
+    "learn"
+  ],
+  "author": "Adarsh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshdch/express-react-babel-webpack-dev-server/issues"
+  },
+  "homepage": "https://github.com/adarshdch/express-react-babel-webpack-dev-server#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
