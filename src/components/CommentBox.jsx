@@ -3,16 +3,14 @@ import ReactDOM from 'react-dom';
 import {CommentList} from './CommentList.jsx';
 import {CommentForm} from './CommentForm.jsx';
 
-class CommentBox extends React.Component {
+export default class CommentBox extends React.Component {
   render() {
     return (
       <div className="CommentBox">
         <h1>Comments</h1>
-        <CommentList />
+        <CommentList data={this.props.data.comments} />
         <CommentForm />
       </div>
     )
   }
 }
-
-ReactDOM.render(<CommentBox />, document.getElementById('react-main-component'));

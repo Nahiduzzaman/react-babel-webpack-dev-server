@@ -5,8 +5,8 @@ module.exports = {
   entry: './main.js',
   contentBbase: './public',
   output: {
-    path: path.resolve(__dirname, "public"),
-    publicPath: "",
+    path: path.resolve(__dirname, "public/assets"),
+    publicPath: "assets",
     filename: 'bundle.js'
   },
   module: {
@@ -18,6 +18,10 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
+      },
+      {
+        test: /.json?$/,
+        loader: 'json'
       }
     ]
   },

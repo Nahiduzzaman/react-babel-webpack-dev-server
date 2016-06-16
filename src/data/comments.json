@@ -1,0 +1,14 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "author": "Adarsh Kumar",
+      "text": "This is example of props."
+    },
+    {
+      "id": 2,
+      "author": "Amit Kumar",
+      "text": "This comment is accessed via this.props.children"
+    }
+  ]
+}

@@ -4,6 +4,7 @@ Learning React Redux with Babel and Webpack Dev Server
 
 Execute command to run the application
 ```
+npm install
 npm start
 ```
 
